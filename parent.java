@@ -2,7 +2,7 @@ import java.util.Scanner;
 class child {
 	public void add(int x,int y)
 	{
-		int z=x+y;
+		int z=x+y+10;
 		System.out.print(z);
 	}
 }
@@ -18,7 +18,7 @@ public class parent extends child{
 		int a=sc.nextInt();
 		System.out.println("Second Number");
 		int b=sc.nextInt();
-		child obj=new child();
+		child obj=new parent();
 		obj.add(a,b);
 		
 		
